@@ -17,5 +17,5 @@ spring:
 
 #自定义参数，防爆刷（限制单个客户端IP在最近X分钟内请求注册接口不能超过Y次）
 customize:
-  intervalSecond: 60
+  intervalSecond: 30
   limitRequests: 3
